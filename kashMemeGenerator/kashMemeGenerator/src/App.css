@@ -1,0 +1,122 @@
+.nav--head {
+  background: linear-gradient(to bottom right, #672280, #E0004D);
+  height: 130px;
+  display: flex;
+  align-items: center;
+}
+
+
+.nav--img {
+  height: 100px;
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 15px;
+}
+
+.nav--heading {
+  color: azure;
+  margin-top: 45px;
+  margin-left: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.form {
+  display: grid;
+  gap: 20px;
+  grid-template: 40px 40px / 1fr 1fr;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 70px;
+  font-size: 24px;
+  border-radius: 15px;
+  background: linear-gradient(to bottom right, #672280, #E0004D);
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  outline: none;
+  text-decoration: none;
+  margin-top: 20px;
+  opacity: 0.9;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 36px;
+}
+
+.form--container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button--wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.form--inputs:first-child {
+  margin-right: 100px;
+}
+
+.form--inputs {
+  border-radius: 15px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  width: 500px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.meme--container {
+  display: flex;
+  justify-content: center;
+}
+
+.meme--wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.meme--img {
+  border: 2px solid #2c3e50;
+  width: 500px;
+  height: 500px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.top-text,
+.bottom-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: 36px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 5px 10px;
+}
+
+.top-text {
+  top: 20px;
+}
+
+.bottom-text {
+  bottom: 20px;
+}
